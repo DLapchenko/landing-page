@@ -1,0 +1,44 @@
+:root {
+    --first-color: #2196F3;
+    --second-color: #2F303A;
+    --third-color: #FFFFFF;
+    --fourth-color: #212121;
+    --fifth-color: #757575;
+    --second-font: 'Raleway';
+}
+
+.visually-hiden {
+    color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--second-color);
+}
+
+.accent {
+    color: var(--first-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: var(--first-color);
+    opacity: 1;
+}
+
